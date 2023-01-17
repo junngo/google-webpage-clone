@@ -1,0 +1,33 @@
+header {
+    padding: 6px;
+}
+header > .container {
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 18px;
+}
+header > .container > div {
+    display: inline-block;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+header > .container > .button {
+    box-sizing: border-box;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    border-radius: 4px;
+    cursor: pointer;
+    /* font */
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+}
