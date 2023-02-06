@@ -1,3 +1,4 @@
+/* header */
 header {
     padding: 6px;
 }
@@ -30,4 +31,104 @@ header > .container > .button {
     font-size: 14px;
     letter-spacing: 0.25px;
     line-height: 16px;
+}
+
+/* logo */
+.logo {
+    height: 192px;
+    display: flex;
+    justify-content: center;
+}
+.logo > .box {
+    margin-top: 100px;
+}
+
+/* search box */
+.search {
+    padding: 20px;
+    max-height: 160px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+.search .container {
+    max-width: 584px;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+.search > form > .container > .search-box {
+    width: 638px;
+    max-width: 584px;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.search > form > .container > .search-box > .icon-glasses  {
+    display: flex;
+    align-items: center;
+    margin: auto 15px;
+}
+.search > form > .container > .search-box > .icon-glasses > svg {
+    width: 20px;
+    height: 20px;
+    color: #9aa0a6;
+}
+.search > form > .container > .search-box > .search-input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    flex: 1;
+    flex-wrap: wrap;
+    outline: none;
+}
+.search > form > .container > .search-box > .voice-camera {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.search > form > .container > .search-box > .voice-camera > svg {
+    height: 24px;
+    width: 24px;
+}
+.search > form > .container > .search-box > .voice-camera > img {
+    height: 24px;
+    width: 24px;
+    margin-left: 15px;
+}
+.search > form > .container > .button {
+    height: 70px;
+    padding-top: 18px;
+    text-align: center;
+}
+.search > form > .container > .button > input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* spacing section */
+.spacing > .content {
+    font-size: small;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: arial,sans-serif;
 }
